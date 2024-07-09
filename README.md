@@ -124,6 +124,9 @@ void loop() {
 4. **Right Sensors Detect**: If either right IR sensor detects an object first, and no previous detections are recorded, the servos move to 90 degrees to lower the gate. The buzzer sounds, and the LED turns on.
 5. **Left Sensors Detect After Right**: If the left IR sensors detect an object after the right sensors, the servos return to 0 degrees to raise the gate. The buzzer stops, and the LED turns off.
 
+[![Download and Watch the video](https://img.shields.io/badge/Download%20and%20Watch%20the%20Video-%E2%96%B6%EF%B8%8F-blue)](https://github.com/Unayes09/Automated-Railway-Crossing-System/raw/main/Railway_Crossing_Project.mp4)
+
+
 ## 📜 Conclusion
 
 This automated railway crossing system is designed to enhance safety at railway crossings by automatically lowering and raising the gate based on the detection of approaching and passing trains using IR sensors and servo motors.
